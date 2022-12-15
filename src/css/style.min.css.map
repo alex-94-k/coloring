@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"style.min.css"}
+{"version":3,"sources":["../sass/style.scss","../sass/blocks/_fonts.scss"],"names":[],"mappings":"AAAQ,gMAAA,CAGR,EACI,QAAA,CACA,SAAA,CACA,6BAAA,CAAA,qBAAA,CACA,oCAAA,CACA,oCAAA,CACA,oCAAA,CAGJ,EACI,oBAAA,CAGJ,GACI,oBAAA,CCjBJ,MACI,cAAA,CACA,gBAAA,CAEJ,MACI,cAAA,CACA,gBAAA,CAEJ,MACI,cAAA,CACA,gBAAA","file":"style.min.css"}
