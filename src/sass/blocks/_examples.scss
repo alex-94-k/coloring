@@ -1,0 +1,42 @@
+.examples {
+    height: 700px;
+    background-color: $shadow;
+    padding-top: 50px;
+    &__wrapper {
+        position: relative;
+        display: grid;
+        grid-template-rows: 30% 70%;
+        grid-template-columns: 1fr;
+    }
+    &__layout {
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        column-gap: 30px;
+        padding: 0 20px 0 20px;
+    }
+    &__card {
+        height: 300px;
+        width: 250px;
+        &-text {
+            padding-top: 20px;
+        }
+        &-title {
+            color: #fff;
+        }
+        &-descr {
+            color: #fff;
+        }
+        &-img {
+            height: 150px;
+            width: 250px;
+            overflow: hidden;
+            img {
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+}

@@ -12,10 +12,34 @@
 
 a {
     text-decoration: none;
+    color: #fff;
 }
 
 ul {
     list-style-type: none;
 }
 
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.text {
+    margin: 0 auto;
+}
+
+.title {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.divider {
+    height: 2px;
+    background-color: #fff;
+    width: 70%;
+    margin: 0 auto;
+}
+
 @import 'blocks/fonts';
+@import 'blocks/main';
+@import 'blocks/examples';
