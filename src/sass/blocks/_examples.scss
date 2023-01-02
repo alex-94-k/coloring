@@ -1,5 +1,5 @@
 .examples {
-    height: 700px;
+    height: 800px;
     background-color: $shadow;
     padding-top: 50px;
     &__wrapper {
@@ -17,21 +17,36 @@
         padding: 0 20px 0 20px;
     }
     &__card {
-        height: 300px;
-        width: 250px;
+        display: grid;
+        grid-template-rows: 150px 350px;
+        grid-template-columns: 1fr;
+        height: 500px;
+        width: 300px;
+        border-radius: 10px;
+        overflow: hidden;
+        transition: all 0.5s;
+        &:hover {
+            box-shadow: 2.5px 2.5px 15px $blue;
+        }
         &-text {
-            padding-top: 20px;
+            height: 250px;
+            width: 250px;
+            padding: 10px;
+            margin: 0 auto;
         }
         &-title {
             color: #fff;
         }
         &-descr {
+            margin-top: 20px;
             color: #fff;
+            text-align: justify;
         }
         &-img {
             height: 150px;
-            width: 250px;
+            width: 300px;
             overflow: hidden;
+            margin: 0 auto;
             img {
                 height: 100%;
                 width: 100%;

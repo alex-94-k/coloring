@@ -1,0 +1,16 @@
+.about {
+    height: 500px;
+    background-color: $shadow;
+    padding-top: 50px;
+    background: url('../../img/garage.jpg') center (center/cover) no-repeat;;
+    &__wrapper {
+        position: relative;
+        display: grid;
+        grid-template-rows: 30% 70%;
+        grid-template-columns: 1fr;
+    }
+    &__text {
+        margin-top: 50px;
+        color: #fff;
+    }
+}
