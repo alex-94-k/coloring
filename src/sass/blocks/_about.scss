@@ -2,7 +2,11 @@
     height: 500px;
     background-color: $shadow;
     padding-top: 50px;
-    background: url('../../img/garage.jpg') center (center/cover) no-repeat;;
+    background: url('../../img/garage.jpeg') center (center/cover) no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     &__wrapper {
         position: relative;
         display: grid;
