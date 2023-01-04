@@ -1,0 +1,57 @@
+.reviews {
+    min-height: 800px;
+    background-color: $shadow;
+    padding-top: 50px;
+    &__wrapper {
+        position: relative;
+        display: grid;
+        grid-template-rows: 30% 70%;
+        grid-template-columns: 1fr;
+    }
+    &__layout {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 20px;
+        grid-template-rows: 1fr;
+    }
+    &__card {
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+        height: 300px;
+        width: 200px;
+        margin: 0 auto;
+        &-wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        &-img {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 150px;
+            width: 150px;
+            border-radius: 100%;
+            overflow: hidden;
+            img {
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+        &__text {
+            padding: 10px;
+            margin: 0 auto;
+        }
+        &-title {
+            color: #fff;
+        }
+        &-descr {
+            margin-top: 20px;
+            color: #fff;
+            text-align: justify;
+        }
+    }
+}

@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
+
     <!-- Main -->
 
     <header class="main">
@@ -16,10 +17,10 @@
             <nav class="main__nav">
                 <ul class="main__list">
                     <li class="main__item"><a href="#" class="main__link">Main page</a></li>
-                    <li class="main__item"><a href="#" class="main__link">Examples</a></li>
-                    <li class="main__item"><a href="#" class="main__link">About us</a></li>
+                    <li class="main__item"><a href="#examples" class="main__link">Examples</a></li>
+                    <li class="main__item"><a href="#about" class="main__link">About us</a></li>
                     <li class="main__item"><a href="#" class="main__link">Services</a></li>
-                    <li class="main__item"><a href="#" class="main__link">Contacts</a></li>
+                    <li class="main__item"><a href="#contacts" class="main__link">Contacts</a></li>
                 </ul>
             </nav>
         </div>
@@ -41,7 +42,7 @@
 
     <!-- Examples -->
 
-    <section class="examples">
+    <section class="examples" id="examples">
         <div class="container examples__wrapper">
             <div class="text">
                 <h1 class="title fz34">Examples</h1>
@@ -81,7 +82,7 @@
 
     <!--About us -->
 
-    <section class="about">
+    <section class="about" id="about">
         <div class="container about__wrapper">
             <div class="text">
                 <h1 class="title fz34">About us</h1>
@@ -96,50 +97,87 @@
 
     <!-- Services -->
 
-    <section class="services">
-        <div class="container services__wrapper">
+    <!-- Reviews -->
+
+    <section class="reviews">
+        <div class="container reviews__wrapper">
             <div class="text">
-                <h1 class="title fz34">Services</h1>
+                <h1 class="title fz34">Reviews</h1>
                 <div class="divider"></div>
             </div>
-            <nav class="services__nav">
-                <ul class="services__list">
-                    <li class="services__item">
-                        <div class="services__circle"></div>
-                        <div class="services__text">
-                            <div class="services__title fz24">Service 1</div>
-                            <div class="services__descr fz14">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat incidunt quaerat ipsum facere possimus accusamus.</div>
+            <div class="reviews__layout">
+                <div class="reviews__card">
+                    <div class="reviews__card-wrapper">
+                        <div class="reviews__card-img">
+                            <img src="img/people1.jpeg" alt="people">
                         </div>
-                    </li>
-                    <li class="services__item">
-                        <div class="services__circle"></div>
-                        <div class="services__text">
-                            <div class="services__title fz24">Service 2</div>
-                            <div class="services__descr fz14">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat incidunt quaerat ipsum facere possimus accusamus.</div>
+                    </div>
+                    <div class="reviews__card-text">
+                        <div class="reviews__card-title fz24">Julia Armstrong</div>
+                        <div class="reviews__card-descr">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quis ipsum provident.</div>
+                    </div>
+                </div>
+                <div class="reviews__card">
+                    <div class="reviews__card-wrapper">
+                        <div class="reviews__card-img">
+                            <img src="img/people2.jpeg" alt="people">
                         </div>
-                    </li>
-                    <li class="services__item">
-                        <div class="services__circle"></div>
-                        <div class="services__text">
-                            <div class="services__title fz24">Service 3</div>
-                            <div class="services__descr fz14">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat incidunt quaerat ipsum facere possimus accusamus.</div>
+                    </div>
+                    <div class="reviews__card-text">
+                        <div class="reviews__card-title fz24">Michael Richmond</div>
+                        <div class="reviews__card-descr">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus magni perspiciatis, numquam inventore laboriosam facilis voluptatum. Impedit?</div>
+                    </div>
+                </div>
+                <div class="reviews__card">
+                    <div class="reviews__card-wrapper">
+                        <div class="reviews__card-img">
+                            <img src="img/people3.jpeg" alt="people">
                         </div>
-                    </li>
-                    <li class="services__item">
-                        <div class="services__circle"></div>
-                        <div class="services__text">
-                            <div class="services__title fz24">Service 4</div>
-                            <div class="services__descr fz14">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat incidunt quaerat ipsum facere possimus accusamus.</div>
-                        </div>
-                    </li>
-                </ul>
-            </nav>
+                    </div>
+                    <div class="reviews__card-text">
+                        <div class="reviews__card-title fz24">Willy Potter</div>
+                        <div class="reviews__card-descr">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus saepe aut odit consectetur facilis!</div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
-    <!-- Reviews -->
-
     <!-- Contacts -->
+
+    <section class="contacts" id="contacts">
+        <div class="container contacts__wrapper">
+            <div class="text">
+                <h1 class="title fz34">Contacts</h1>
+                <div class="divider"></div>
+            </div>
+            <div class="contacts__layout">
+                <form action="" class="contacts__form">
+                    <div class="contacts__row">
+                        <input type="text" class="contacts__input" placeholder="Put your first name">
+                        <input type="text" class="contacts__input" placeholder="Put your surname">
+                    </div>
+                    <div class="contacts__row">
+                        <input type="email" class="contacts__input" placeholder="Put your email address">
+                        <input type="text" class="contacts__input" placeholder="Put your phone number">
+                    </div>
+                    <div class="contacts__text">
+                        <textarea class="contacts__area" placeholder="Put the reason of your request..."></textarea>
+                    </div>
+                    <div class="contacts__btns">
+                        <button class="contacts__btn" type="submit">Submit</button>
+                        <button class="contacts__btn" type="reset">Reset</button>
+                    </div>
+                </form>
+                <div class="contacts__info">
+                    <div class="contacts__title">Coloring</div>
+                    <div class="contacts__line">+38(096) 755-43-45</div>
+                    <div class="contacts__line">coloring@gmail.com</div>
+                    <div class="contacts__line">Odessa, Stepova, 26</div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
