@@ -2,10 +2,13 @@
     position: relative;
     height: 100vh;
     background: url('../../img/main.jpg') center (center/cover) no-repeat;
+<<<<<<< HEAD
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+=======
+>>>>>>> 8aaa62ef618b051ab9751b4ab2a2de0b85d78d0e
     &__header {
         height: 100px;
     }
@@ -77,7 +80,10 @@
         height: 30px;
         width: 30px;
         color: #fff;
+<<<<<<< HEAD
         cursor: pointer;
+=======
+>>>>>>> 8aaa62ef618b051ab9751b4ab2a2de0b85d78d0e
         &:hover {
             color: $blue;
         }
